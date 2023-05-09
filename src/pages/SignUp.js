@@ -17,7 +17,7 @@ const SignUp = () => {
 			<button type="submit" className='btn-style'>Sign Up</button>
 		</form>
         </div> 
-		{/* <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button> */}
+		{/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button> */}
 
     </>
   )

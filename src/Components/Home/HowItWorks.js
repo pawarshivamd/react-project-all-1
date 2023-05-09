@@ -24,7 +24,7 @@ const HowItWorks = () => {
                         const { logo, title, info } = cueElem;
                         return (
                             <>
-                                <div className='col-sm-12 col-lg-4 text-center work-container-subdiv'  data-aos="fade-up-right" >
+                                <div className='col-sm-12 col-lg-4 text-center work-container-subdiv'   data-aos="fade-up-right" >
                                     <i className={`fontawesome-style ${logo}`}></i>
                                     <h2 className='sub-heding'>{title}</h2>
                                     <p className='main-hero-para w-80'>{info}</p>

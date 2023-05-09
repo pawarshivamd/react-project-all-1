@@ -40,22 +40,22 @@ const Footer = () => {
                                <div className='row'>
                                     <div className="col-3 mx-auto">
                                         <a href="/" className='icon-box'>
-                                        <i class="fab fa-instagram"></i>
+                                        <i className="fab fa-instagram"></i>
                                         </a>
                                     </div>
                                     <div className="col-3 mx-auto">
                                         <a href="/" className='icon-box'>
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"></i>
                                         </a>
                                     </div>
                                     <div className="col-3 mx-auto">
                                         <a href="/" className='icon-box'>
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i className="fab fa-facebook-f"></i>
                                         </a>
                                     </div>
                                     <div className="col-3 mx-auto">
                                         <a href="/" className='icon-box'>
-                                        <i class="fab fa-youtube"></i>
+                                        <i className="fab fa-youtube"></i>
                                         </a>
                                     </div>
                                </div>

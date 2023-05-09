@@ -17,7 +17,7 @@ const Services = () => {
 						<div className='col-lg-3 col-12' >
 							<div className='posinon '>
 								<div className='icon-box'>
-									<i class="fab fa-html5"></i>
+									<i className="fab fa-html5"></i>
 								</div>
 								<h1>
 									Mobile Development
@@ -29,7 +29,7 @@ const Services = () => {
 						<div className='col-lg-3 col-12'>
 							<div className='posinon'>
 								<div className='icon-box'>
-									<i class="far fa-folder-open"></i>
+									<i className="far fa-folder-open"></i>
 								</div>
 								<h1>
 									Mobility Services
@@ -41,7 +41,7 @@ const Services = () => {
 						<div className='col-lg-3 col-12'>
 							<div className='posinon'>
 								<div className='icon-box'>
-									<i class="fab fa-uncharted"></i>
+									<i className="fab fa-uncharted"></i>
 								</div>
 								<h1>
 									Software Consulting
