@@ -1,11 +1,11 @@
 import React from 'react'
-import Nvabar from '../Navbar'
-import Footer from '../Components/Home/Footer'
+// import Nvabar from '../Navbar'
+// import Footer from '../Components/Home/Footer'
 
 const About = () => {
   return (
     <>
-    <Nvabar/>
+    {/* <Nvabar/> */}
     <div className="About-section">
       <div className="container ">
         <div className="row align-items-center">
@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

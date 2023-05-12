@@ -9,23 +9,18 @@ const Services = () => {
 
                     <h1 className='main-heading text-center fw-bold'>HOW TO SEND MONEY</h1>
                     <div className='row'>
-                    {servicesDate.map ((curElem) =>{
-                        const {logo, title,info} = curElem;
-                    return (
-                        <>
-                        <div className="col-lg-4 col-11 work-container-subdiv text-center "  >
-                        
-                        <i className={`fontawesome-style ${logo}`}></i>
-                        
-                                <h2 className='sub-heding'>{title}</h2>
-                                <p>{info}</p>
-                        </div>
+                        {servicesDate.map((curElem, index) => {
+                            const { logo, title, info } = curElem;
+                            return (
+                                <div key={index} className="col-lg-4 col-11 work-container-subdiv text-center">
+                                    <i className={`fontawesome-style ${logo}`}></i>
+                                    <h2 className='sub-heding'>{title}</h2>
+                                    <p>{info}</p>
+                                </div>
+                            )
+                        })}
 
-        
-                        </>
-                    )})
-                    }
-                     
+
                     </div>
                 </div>
             </section>
@@ -34,3 +29,4 @@ const Services = () => {
 }
 
 export default Services
+// {/* key ={`key ${i}` */}

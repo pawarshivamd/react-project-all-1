@@ -41,8 +41,8 @@ const ContactUsSetion = () => {
                                             <input type="text" placeholder='Enter Your Message' className='form-control my-3' />
                                         </div>
                                         <div className="mb-3 form-check">
-                                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                                <label className="form-check-label" htmlFor="exampleCheck1">I agree that shivampawar may contact me at the email addresss or phone number above</label>
+                                            <input type="checkbox" className="form-check-input" id="e" />
+                                                <label className="form-check-label" htmlFor="e">I agree that shivampawar may contact me at the email addresss or phone number above</label>
                                         </div>
                                         <div className='col-12 text-end'>
                                             <button className='btn-style my-4 ' type='submit'>Submit</button>
